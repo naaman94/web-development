@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+<style >
+	fieldset{background-color: #ffff99;}
+	fieldset{width: 400px}
+	fieldset{margin: auto}
+	button{margin: auto ;text-align: center;}
+	h1{text-align: center;}
+	.c3 {text-align: center;}
+	label{display: inline-block;width: 150px;text-align: right;}
+	.c01{display: inline-block;width: 150px;text-align: left;}
+</style>
 <head>
 	<title>Exercise #4: Subscription form</title>
 </head>
@@ -9,17 +19,17 @@
 	<fieldset >
 		<legend>Personal details</legend>
 		<label> First Name:</label>
-		<input type="text" name="firstname"><br>
+		<input class="c01" type="text" name="firstname"><br>
 		<label>Last Name:</label>
-		<input type="text" name="firstname"><br>
+		<input class="c01" type="text" name="firstname"><br>
 		<label>Email:</label>
-		<input type="Email" name="Email"><br><label>Gender:
+		<input class="c01" type="Email" name="Email"><br><label>Gender:
 		</label>
 		<input  type="radio" name="gender" value="male"> Male
   	    <input type="radio" name="gender" value="female"> Female<br> 
   	</fieldset>
 
-	<fieldset >
+	<fieldset class="c2">
 		 <legend>magazines</legend>
 	<input type="checkbox" name="AARP Magazine">AARP Magazine<br>
 	<input type="checkbox" name="Better Homes And Garden">Better Homes And Garden<br>
@@ -29,7 +39,7 @@
 
 <fieldset>
 		 <legend>Subscription</legend>
-		 
+		 <div class="c3">
 Period : <select>
 	<option value="6 months">6 months</option>
     <option value="12 months">12 months</option>
@@ -37,9 +47,9 @@ Period : <select>
 	<option value="24 months">24 months</option>
 
 </select><br>
-
+</div>
   	</fieldset>
-<button type="submit">subscribe</button>
+<center><button type="submit">subscribe</button></center>
 	
 
 </form>

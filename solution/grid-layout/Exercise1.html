@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 1</title>
+    
+    <style>
+    	.div1{display: grid;
+            grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr;
+                            }   
+    	.div2{
+            margin: center;
+    	padding: 300px; }
+    p{text-align: center;}
+    #id1{grid-area: 1 / 1 / 2 / 2;} 
+    #id2{grid-area: 1 / 2 / 2 / 3;} 
+    #id3{grid-area: 2 / 1 / 3 / 2;} 
+    #id4{grid-area: 2 / 2 / 3 / 3;} 
+
+
+    </style>
+}
+</head>
+
+<body>
+<div class="div1">
+<div  class="div2" id="id1" style="background-color:red"> 
+	<p>Tweets</p></div>
+<div  class="div2"id="id2"style="background-color:yellow">
+	<p>replies</p></div>
+<div class="div2" id="id3"style="background-color:pink">
+	<p>Search</p></div>
+<div class="div2"id="id4" style="background-color:blue">
+	<p>Massages</p></div>
+
+</div>
+</body>
+</html>

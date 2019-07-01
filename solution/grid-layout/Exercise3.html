@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise </title>
+    
+    <style>
+        .form1{
+            display: grid;
+            grid-gap: 5px;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+            grid-template-columns: 20% 1fr;
+        }
+            
+        /*.div2{padding: 100px ;}*/
+        #id1 {grid-area: 1 / 1 / 5 / 2;} 
+        #id2 {grid-area: 1 / 2 / 2 / 3;} 
+        #id3 {grid-area: 2 / 2 / 3 / 3;} 
+        #id4 {grid-area: 3 / 2 / 4 / 3;} 
+        #id5 {grid-area: 4 / 2 / 5 / 3;} 
+       
+    </style>
+
+</head>
+
+<body>
+<form class="form1">
+    <div class="div2"id="id1" style="background-color:red">
+        <p>comments</p>
+        <textarea  name="comment" form="usrform">
+Enter text here...</textarea>
+    </div>
+    <div class="div2"id="id2"style="background-color:yellow">Name: <br><input type="text" name="name"><br>
+    </div>
+    <div class="div2"id="id3"style="background-color:pink;">Email: <br><input type="text" name="email"><br>
+    </div>
+    <div class="div2"id="id4" style="background-color:blue">Phone: <br><input type="text" name="phone"><br>
+    </div>
+    <div class="div2"id="id5" style="background-color:orange;">
+    </div>
+    
+
+</form>
+</body>
+</html>
